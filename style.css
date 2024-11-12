@@ -1,0 +1,142 @@
+.col-md-6{
+    width: 45%;
+ 
+}
+.dropdown-menu.show{
+    width: 426%;
+  
+}
+.navbar-nav  { 
+    font-size: 16px; 
+   
+}
+.nav-link{
+    color:#ffff;
+}
+.nav-item{
+    margin-left: 30px;
+     
+}
+
+.nav-link:hover{
+    color: rgb(240, 34, 34);
+    
+}
+.nav-link:active{
+    color: red;
+  
+    
+   
+}
+.dropdown-item{
+    color: #ffff;
+}
+.violet{
+    width: 200px;
+    height: 350px;
+    background-size: 100% 100%;
+    margin-left: 50px;
+    position: relative;
+    animation: rotate 1s linear infinite;
+      animation-play-state: paused;
+      animation-delay: calc(var(--scroll) * -2s);
+      animation-iteration-count: 1;
+      animation-fill-mode: both;
+    
+}
+.violet-parent{
+    background-color: rgb(82 7 118);
+    height: 750px;
+    width: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin-left: -120px;
+}
+.text1{
+    color: rgb(255, 255, 255);
+    margin-left: -190px;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight:bold;
+    font-size: 55px;
+    margin-left: 10px;
+   
+}
+.main-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500; 
+        margin-left: 20px;
+        color:  rgb(82 7 118);
+     }
+
+ .bailey{
+        width: 100%;
+      
+      }
+
+      .text1{
+        color: rgb(255, 255, 255);
+       margin-left: -190px;
+       z-index: 1;
+       font-family: 'Times New Roman', Times, serif;
+       text-align: center;
+       font-weight:bold;
+       font-size: 55px;
+        
+        
+    }
+    .text{
+        font-size: 13px;
+        color:rgb(12,13,42);
+        text-decoration: none;
+        margin-top: 46px;
+        margin-left: 30px;
+    }
+    .navbar{
+        position: fixed;
+        width: 100%;
+    }
+    .main-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        padding-left: 92px;
+        color:  rgb(82 7 118);
+        font-size: 21px;
+        margin-top: -160px;  
+        
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .s-logo{
+        color: black;
+        margin-left: 31px;
+    }
+    .s-logo a{
+        background-color:#fff;
+        border-radius: 50%;
+        text-decoration: none;
+        margin: 3px;
+     }
+     .s-logo a i{
+         color: #000000;
+         font-size: 1.5em;
+         opacity: 0.9;
+     }
+     @keyframes  rotate {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    .para{
+        padding-left: 112px;
+        padding-top: 50px;
+        font-size: 37px;
+        color:  rgb(82 7 118);
+    }
+    
+    
